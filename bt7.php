@@ -4,9 +4,9 @@
  * Summary of isStringContainingString
  * @param string $string1
  * @param string $string2
- * @return bool
+ * @return string
  */
-function echoStringContainingString(string $string1, string $string2): bool
+function echoStringContainingString(string $string1, string $string2): string
 {
     if (str_contains($string1, $string2)) {
         return "OKIE";
